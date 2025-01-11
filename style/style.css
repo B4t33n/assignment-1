@@ -243,10 +243,6 @@
     margin: 50px 0;
 }
 
-.table-head{
-
-}
-
 table{
     border-collapse: collapse;
 }
@@ -260,7 +256,7 @@ th,td{
 }
 
 .news{
-    height: 1200px;
+    height: 1350px;
     margin-top: 100px;
 }
 
@@ -330,4 +326,69 @@ margin-top: 10px;
     background: white;
     color: black;
     border: 1px solid rgb(0, 106, 80);
+}
+
+.donate{
+    height: 460px;
+}
+
+.donate-header{
+    text-align: center;
+}
+
+.donate-header>h1{
+    color: rgb(14, 14, 14);
+font-size: 35px;
+font-weight: 700;
+line-height: 30px;
+}
+
+.donate-header>p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 15px;
+}
+
+.donate-amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.amount{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 50px 130px;
+    background: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.amount:hover{
+    background-color: rgb(198, 228, 214);
+}
+
+#amount-hover{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    transition: 0.3s;
+}
+
+#amount-hover:hover{
+
+    background-color: white;
+}
+
+#other-amount{
+    border: 1px solid gray;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 20px 40px 20px 40px;
+    width: 95%;
+    text-align: center;
+    margin-top: 30px;
 }
