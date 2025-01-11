@@ -80,6 +80,7 @@
 .banner-content>button:hover{
     color: black;
     background-color: white;
+    border: 1px solid rgb(0, 106, 80);
 }
 
 .pillar{
@@ -227,4 +228,106 @@
 }
 .cotation>h4{
     margin: 9px 0;
+}
+
+.opinion{
+    height: 400px;
+}
+
+.opinion>h1{
+    margin: 30px 0;
+}
+
+.table{
+    height: 400px;
+    margin: 50px 0;
+}
+
+.table-head{
+
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+th,td{
+    width: 90%;
+    text-align: left;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+.news{
+    height: 1200px;
+    margin-top: 100px;
+}
+
+.news-header>h1{
+    color: rgb(14, 14, 14);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.news-card{
+    margin-top: 50px;
+}
+.news-header>p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.news-card-item{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.news-card-item-img>img{
+    border-radius: 24px;
+}
+
+.news-card-item-content{
+    padding: 30px;
+}
+
+.news-card-item-content>h1{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 27px;
+font-weight: 700;
+line-height: 29px;
+}
+
+.news-card-item-content>p{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-top: 10px;
+}
+
+.news-card-item-content>button{
+    border-radius: 8px;
+    padding: 13px 26px 13px 26px;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    background: rgb(0, 106, 80);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.news-card-item-content>button:hover{
+    background: white;
+    color: black;
+    border: 1px solid rgb(0, 106, 80);
 }
